@@ -1,6 +1,36 @@
-# .htaccess
+# BEGIN iSC Networks Videos
 
-## MediaElementPlayer
-AddType video/ogg .ogv
-AddType video/mp4 .mp4
-AddType video/webm .webm
+
+# Text
+    AddType text/xml .xml
+
+# Video
+  ## Ogg Vorbis
+    AddType video/ogg .ogm
+    AddType video/ogg .ogv
+    AddType video/ogg .ogg
+  ## WebM VP8
+    AddType video/webm .webm
+    AddType audio/webm .weba
+  ## MPEG-1
+    AddType video/mpeg .mpeg
+    AddType video/mpeg .mpg
+  ## MPEG-2
+    AddType video/mpeg .mpeg
+    AddType video/mpeg .mpg
+  ## MPEG-4
+    AddType video/mp4 .mp4
+    AddType video/mp4 .m4b
+    AddType video/mp4 .m4r
+    AddType video/x-m4v .m4v
+  ##Quicktime
+    AddType video/quicktime .mov
+
+# Audio
+    AddType audio/mpeg .mp3
+    AddType audio/playlist .m3u
+    AddType audio/x-scpls .pls
+    AddType audio/wav .wav
+
+
+# END iSC Networks Videos
